@@ -112,111 +112,111 @@ public class Solve {
         scanner.close();
     }
 
-    private static void ejercicio1() {
+    public  static void ejercicio1() {
         int x1 = (int) ((double) 5.89 + (double) 3.45);
         System.out.println(x1);
     }
 
-    private static void ejercicio2() {
+    public  static void ejercicio2() {
         char c2 = 'A';
         int asciiValue = c2;
         System.out.println("El valor ASCII de '" + c2 + "' es: " + asciiValue);
     }
 
-    private static void ejercicio3() {
+    public  static void ejercicio3() {
         double d3 = 100.04;
         long l3 = (long) d3;
         int i3 = (int) l3;
         System.out.println(i3);
     }
 
-    private static void ejercicio4() {
+    public  static void ejercicio4() {
         String numeroString = "123";
         int numeroInt = Integer.parseInt(numeroString);
         System.out.println("El número convertido es: " + numeroInt);
     }
 
-    private static void ejercicio5() {
+    public  static void ejercicio5() {
         int resultado5 = (int) (char) (byte) -1;
         System.out.println("El resultado es: " + resultado5);
     }
 
-    private static void ejercicio6() {
+    public  static void ejercicio6() {
         int numero6 = 65;
         char caracter = (char) numero6;
         System.out.println("El número 65 convertido a char es: " + caracter);
     }
 
-    private static void ejercicio7() {
+    public  static void ejercicio7() {
         long numeroLargo = 1234567890L;
         int numeroEntero = (int) numeroLargo;
         System.out.println("El número es: " + numeroEntero);
     }
 
-    private static void ejercicio8() {
+    public  static void ejercicio8() {
         float numeroFloat = 3.14f;
         String numString = String.valueOf(numeroFloat);
         System.out.println("El float como string es: " + numString);
     }
 
-    private static void ejercicio9() {
+    public  static void ejercicio9() {
         int resultado9 = (int) Math.round(3.7);
         System.out.println("El resultado es: " + resultado9);
     }
 
-    private static void ejercicio10() {
+    public  static void ejercicio10() {
         byte b10 = 50;
         short s10 = b10;
         System.out.println("El valor de s (short) es: " + s10);
     }
 
-    private static void ejercicio11() {
+    public  static void ejercicio11() {
         int x11 = 10;
         x11 += 5;
         System.out.println("El valor de x es: " + x11);
     }
 
-    private static void ejercicio12() {
+    public  static void ejercicio12() {
         int x12 = 3;
         int y12 = 2;
         y12 *= (x12 + 5);
         System.out.println("El valor de y es: " + y12);
     }
 
-    private static void ejercicio13() {
+    public static void ejercicio13() {
         int a13 = 15;
         a13 %= 4;
         System.out.println("El valor de a es: " + a13);
     }
 
-    private static void ejercicio14() {
+    public static void ejercicio14() {
         int x14 = 5;
         int y14 = 3;
         x14 += y14;
         System.out.println("El valor de x es: " + x14);
     }
 
-    private static void ejercicio15() {
+    public  static void ejercicio15() {
         int x15 = 5;
         System.out.println("x antes de la operación: " + x15);
         x15 ^= 2;
         System.out.println("x después de la operación: " + x15);
     }
 
-    private static void ejercicio16() {
+    public  static void ejercicio16() {
         int x16 = 5;
         int y16 = ++x16;
         System.out.println("x: " + x16);
         System.out.println("y: " + y16);
     }
 
-    private static void ejercicio17() {
+    public  static void ejercicio17() {
         int a17 = 5;
         System.out.println(a17++);
         System.out.println(a17);
     }
 
-    private static void ejercicio18() {
+    public  static void ejercicio18() {
         int count = 10;
         System.out.println("Valor inicial de count: " + count);
         count--;
@@ -226,7 +226,7 @@ public class Solve {
         System.out.println("Valor de otroCount después del decremento: " + --otroCount);
     }
 
-    private static void ejercicio19() {
+    public  static void ejercicio19() {
         int i19 = 5;
         System.out.println(i19++);
         System.out.println(i19);
@@ -234,19 +234,19 @@ public class Solve {
         System.out.println(i19);
     }
 
-    private static void ejercicio20() {
+    public  static void ejercicio20() {
         int x20 = 3;
         x20 = x20++;
         System.out.println(x20);
     }
 
-    private static void ejercicio21() {
+    public  static void ejercicio21() {
         int i21 = 5;
         i21 += ++i21 + i21++ + ++i21;
         System.out.println(i21);
     }
 
-    private static void ejercicio22() {
+    public  static void ejercicio22() {
         double numeroDouble = 5.5;
         int numeroInt22 = (int) numeroDouble;
         System.out.println("Número entero: " + numeroInt22);
@@ -254,27 +254,27 @@ public class Solve {
         System.out.println("Número entero incrementado: " + numeroInt22);
     }
 
-    private static void ejercicio23() {
+    public  static void ejercicio23() {
         double d23 = 5.7;
         int i23 = (int) d23;
         i23 *= 2;
         System.out.println(i23--);
     }
 
-    private static void ejercicio24() {
+    public  static void ejercicio24() {
         int num24 = 10;
         double result24 = num24;
         result24 /= 2.0;
         System.out.println("El resultado es: " + result24);
     }
 
-    private static void ejercicio25() {
+    public static void ejercicio25() {
         char c25 = 'X';
         c25 += 32;
         System.out.println(c25);
     }
 
-    private static void ejercicio26() {
+    public static void ejercicio26() {
         long numeroLong26 = 1000;
         short numeroShort26 = (short) numeroLong26;
         System.out.println("Número short: " + numeroShort26);
@@ -282,13 +282,13 @@ public class Solve {
         System.out.println("Número short multiplicado: " + numeroShort26);
     }
 
-    private static void ejercicio27() {
+    public static void ejercicio27() {
         int X27 = 10;
         X27 += (X27++) + (++X27);
         System.out.println("x = " + X27);
     }
 
-    private static void ejercicio28() {
+    public static void ejercicio28() {
         float numeroFloat28 = 10.5f;
         byte numeroByte28 = (byte) numeroFloat28;
         System.out.println("Número byte: " + numeroByte28);
@@ -296,17 +296,17 @@ public class Solve {
         System.out.println("Número byte después del predecremento: " + numeroByte28);
     }
 
-    private static void ejercicio29() {
+    public static void ejercicio29() {
         int I29 = 257;
         byte b29 = (byte) I29;
         System.out.println(b29);
     }
 
-    private static void ejercicio30() {
+    public static void ejercicio30() {
         double NumeroDouble30 = 10.5;
         int NumeroInt30 = (int) NumeroDouble30;
         NumeroInt30 += 5;
         NumeroInt30++;
         System.out.println("Número int final: " + NumeroInt30);
     }
-}
+} 
